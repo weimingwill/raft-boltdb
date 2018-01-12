@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/hashicorp/raft"
+	"github.com/weimingwill/raft"
 )
 
 func testBoltStore(t testing.TB) *BoltStore {
